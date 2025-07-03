@@ -10,26 +10,7 @@
       font-size: 16px;
     }
 
-    nav {
-      background-color: #333;
-      padding: 10px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 5px 10px;
-      font-size: 14px;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    section {
+  section {
       margin-top: 20px;
     }
 

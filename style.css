@@ -1,34 +1,15 @@
+* {
+  box-sizing: border-box;
+}
 
-    * {
-      box-sizing: border-box;
-    }
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  padding: 0;
+  font-size: 16px;
+}
 
-    body {
-      font-family: Arial, sans-serif;
-      margin: 10px;
-      padding: 0;
-      font-size: 16px;
-    }
-
-  section {
-      margin-top: 20px;
-    }
-
-    details {
-      margin-left: 10px;
-      margin-bottom: 10px;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    @media (max-width: 600px) {
-      body {
-        font-size: 14px;
-      }
-
-     nav {
+nav {
   background-color: #333;
   padding: 10px;
   display: grid;
@@ -36,6 +17,7 @@
   gap: 10px;
   justify-items: center;
 }
+
 nav a {
   color: white;
   text-decoration: none;
@@ -45,9 +27,28 @@ nav a {
   border-radius: 5px;
   text-align: center;
 }
-       nav a:hover {
+
+nav a:hover {
   background-color: #777;
   text-decoration: none;
 }
-    }
-  
+
+section {
+  margin-top: 20px;
+}
+
+details {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+/* Media query hanya untuk penyesuaian kecil */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}

@@ -28,20 +28,22 @@
         font-size: 14px;
       }
 
-      nav {
-        flex-direction: column;
-        align-items: center;
-      }
-
-     nav a {
+     nav {
+  background-color: #333;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  justify-items: center;
+}
+nav a {
   color: white;
   text-decoration: none;
-  margin: 5px 10px;
   font-size: 14px;
   padding: 8px 12px;
   background-color: #555;
   border-radius: 5px;
-  transition: background 0.2s ease;
+  text-align: center;
 }
        nav a:hover {
   background-color: #777;

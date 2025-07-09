@@ -8,6 +8,18 @@ body {
   padding: 0;
   font-size: 16px;
 }
+nav {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+
+  position: sticky;
+  top: 0;
+  z-index: 999; /* biar gak ketumpuk konten lain */
+}
 
 nav {
   background-color: #333;

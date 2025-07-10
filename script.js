@@ -8,6 +8,11 @@
 </head>
 <body>
 
+  document.getElementById('menu-toggle').addEventListener('click', function () {
+  const nav = document.getElementById('main-nav');
+  nav.classList.toggle('hidden');
+});
+
   <nav>
     <a href="#" onclick="loadSOP('sop01.html')">SOP 01 - Dinding Longsor</a>
     <a href="#" onclick="loadSOP('sop02.html')">SOP 02 - (Contoh Berikutnya)</a>

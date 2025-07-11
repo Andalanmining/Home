@@ -8,4 +8,3 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
-<script src="script.js"></script>

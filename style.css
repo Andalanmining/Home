@@ -6,7 +6,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 10px;
   padding: 0;
-  font-size: 16px;
+  font-size: 18px; /* dulunya 16px */
+  line-height: 1.6; /* biar lega antar baris */
 }
 #menu-toggle {
   background-color: #333;

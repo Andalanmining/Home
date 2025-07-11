@@ -59,6 +59,11 @@ section {
 details {
   margin-left: 10px;
   margin-bottom: 10px;
+  line-height: 1.6; /* biar lega antar baris */
+}
+details ul {
+  line-height: 1.6;
+  margin-top: 5px;
 }
 
 ul {

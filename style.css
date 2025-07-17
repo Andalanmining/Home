@@ -95,3 +95,6 @@ img.logo {
     width: 280px; /* Lebih gede untuk HP */
   }
 }
+html {
+  scroll-behavior: smooth;
+}

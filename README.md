@@ -1,4 +1,29 @@
+# 📄 Dokumen Safety - PT. Andalan Mining
 
+Situs ini berisi dokumen-dokumen keselamatan kerja seperti **Pre Start Check**, **Peralatan**, **SOP**, **JSA**, dan **PTO** yang digunakan di lingkungan kerja PT. Andalan Mining.
+
+📍 Live site: [https://andalanmining.github.io/Home](https://andalanmining.github.io/Home)
+
+---
+
+## 🚧 Struktur Folder
+
+/Home/
+│
+├── index.html → Halaman utama
+├── style.css → Desain tampilan
+├── script.js → Navigasi dan interaktivitas
+│
+├── /img/ → Logo, tanda tangan, dan gambar SOP
+│ ├── logo.png
+│ ├── ttd.png
+│ └── ...
+│
+├── /sop/ → Halaman SOP
+│ ├── sop01.html
+│ └── sop02.html
+│
+└── /jsa/ → (opsional) Halaman JSA jika dipisah
 ---
 
 ## 📚 Fitur

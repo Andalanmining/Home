@@ -74,6 +74,10 @@ img.logo {
   width: 120px;
   height: auto;
 }
+.header-center {
+  text-align: center;
+  margin-top: 20px;
+}
 
 /* Media query hanya untuk penyesuaian kecil */
 @media (max-width: 600px) {

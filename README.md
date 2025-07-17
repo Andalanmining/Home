@@ -31,8 +31,6 @@ Semua file bisa diubah langsung via GitHub atau dengan teks editor lokal (misaln
 ## 🙌 Kontributor
 
 🛡️ **Muslih** – Safety Coordinator & Inisiator  
-💻 **Doel (ChatGPT)** – Bantuan teknis & coding  
-☕ Dan semua yang belum pensiun tapi udah plus-plus matanya 😄
 
 ---
 

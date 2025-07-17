@@ -81,3 +81,13 @@ img.logo {
     font-size: 14px;
   }
 }
+.ttd {
+  width: 220px;
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .ttd {
+    width: 280px; /* Lebih gede untuk HP */
+  }
+}

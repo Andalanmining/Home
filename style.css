@@ -1,3 +1,4 @@
+/* === Global Reset & Base Styles === */
 * {
   box-sizing: border-box;
 }
@@ -9,6 +10,55 @@ body {
   font-size: 18px; /* dulunya 16px */
   line-height: 1.6; /* biar lega antar baris */
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* === Typography === */
+h3 {
+  margin-top: 0;
+  color: #0056b3;
+}
+
+/* === Layout Section === */
+section {
+  margin-top: 20px;
+}
+
+/* === Compact List Styling === */
+.compact {
+  padding-left: 1.2rem;
+  line-height: 1.4;
+}
+
+.compact li {
+  margin-bottom: 0.5rem;
+}
+
+/* === Step Card Styling === */
+.step-card {
+  background: #f8f9fa;
+  border-left: 4px solid #007bff;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0 4px 4px 0;
+}
+
+.step-card.emergency {
+  border-left-color: #dc3545;
+  background: #fff8f8;
+}
+
+/* === Responsibility Note === */
+.responsibility {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* === Navigation Menu === */
 #menu-toggle {
   background-color: #333;
   color: white;
@@ -18,6 +68,7 @@ body {
   cursor: pointer;
   width: 100%;
 }
+
 nav {
   background-color: #333;
   padding: 10px;
@@ -32,7 +83,6 @@ nav.hidden {
   display: none;
 }
 
-
 nav a {
   color: white;
   text-decoration: none;
@@ -41,9 +91,6 @@ nav a {
   background-color: #555;
   border-radius: 5px;
   text-align: center;
-}
-
-nav a {
   transition: background-color 0.3s ease;
 }
 
@@ -52,17 +99,14 @@ nav a:hover {
   text-decoration: none;
 }
 
-section {
-  margin-top: 20px;
-}
-
+/* === Detail List & Ul === */
 details {
   margin-left: 10px;
   margin-bottom: 10px;
-  line-height: 1.6; /* biar lega antar baris */
-}
-details ul {
   line-height: 1.6;
+}
+
+details ul {
   margin-top: 5px;
 }
 
@@ -70,27 +114,23 @@ ul {
   padding-left: 20px;
 }
 
+/* === Image Styling === */
 img.logo {
   width: 120px;
   height: auto;
 }
 
-/* Media query hanya untuk penyesuaian kecil */
-@media (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
-}
 .ttd {
   width: 120px;
   max-width: 100%;
 }
 
+/* === Responsive Adjustments === */
 @media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
   .ttd {
     width: 280px; /* Lebih gede untuk HP */
   }
-}
-html {
-  scroll-behavior: smooth;
 }

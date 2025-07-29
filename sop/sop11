@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOP 11 - Geo Tekstile & Geo Membrane</title>
+</head>
+<body>
+    <h1>STANDARD OPERATING PROCEDURE (SOP 11)</h1>
+    <h2>GEO TEKSTILE & GEO MEMBRANE</h2>
+
+    <h3>1.0 Tujuan</h3>
+    <p>Memberikan petunjuk langkah aman pemasangan/pengelasan Geo Membran untuk mencegah kecelakaan.</p>
+
+    <h3>2.0 Lingkup</h3>
+    <ul>
+        <li>Persiapan</li>
+        <li>Pembuatan kanal</li>
+        <li>Penghamparan Geotech & Geo Membran</li>
+        <li>Pengoperasian Genset</li>
+        <li>Penyambungan Geo Membran</li>
+    </ul>
+
+    <h3>3.0 Tanggung Jawab</h3>
+    <p><strong>Pihak Terkait:</strong> Supervisor, Helper, Operator</p>
+    <p><strong>PPE Wajib:</strong> Sepatu safety, helm, kacamata, sarung tangan, masker.</p>
+
+    <h3>4.0 Prosedur</h3>
+    
+    <h4>Step 1: Persiapan</h4>
+    <ul>
+        <li>Lakukan pemeriksaan kendaraan/peralatan (pre-start check)</li>
+        <li>Pastikan stiker komisioning dan tagging listrik masih valid</li>
+        <li>Laporkan alat rusak dan jangan digunakan</li>
+    </ul>
+    <p><small>Tanggung Jawab: Operator & Supervisor</small></p>
+
+    <h4>Step 2: Membuat Kanal</h4>
+    <ul>
+        <li>Survey lokasi, pastikan tanah tidak lembek</li>
+        <li>Buat ramp untuk excavator</li>
+        <li>Jaga jarak aman dari tepi tebing</li>
+    </ul>
+    <p><small>Tanggung Jawab: Operator</small></p>
+
+    <h4>Step 3: Penghamparan</h4>
+    <ul>
+        <li>Hamparkan dari dataran tinggi ke rendah</li>
+        <li>Buat overlapping 30 cm dan timbun dengan tanah</li>
+        <li>Jaga jarak 12m dari excavator</li>
+    </ul>
+    <p><small>Tanggung Jawab: Helper</small></p>
+
+    <h4>Step 4: Pengoperasian Genset</h4>
+    <ul>
+        <li>Pastikan stiker commissioning valid</li>
+        <li>Periksa oli, fuel, dan kondisi kabel</li>
+        <li>Hidupkan genset sesuai prosedur</li>
+    </ul>
+    <p><small>Tanggung Jawab: Pekerja</small></p>
+
+    <h4>Step 5: Penyambungan Geo Membran</h4>
+    <ul>
+        <li>Bersihkan ujung geomembran dari debu/minyak</li>
+        <li>Buat overlapping 10-30 cm</li>
+        <li>Hentikan pekerjaan saat hujan</li>
+    </ul>
+    <p><small>Tanggung Jawab: Pekerja</small></p>
+
+    <h3>Catatan Penting:</h3>
+    <ul>
+        <li>Pakai jaket pelampung jika bekerja dekat air (>1m)</li>
+        <li>Jaga jarak 1.5x tinggi tebing di area rawan longsor</li>
+    </ul>
+</body>
+</html>

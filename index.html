@@ -15,6 +15,56 @@
     <h2 style="margin: 5px 0 20px;">Pre Start Check & Dokumen Safety</h2>
   </div>
 
+<!-- CONTACT FORM - PASTE INI DI INDEX.HTML -->
+<section id="contact" style="padding: 2rem; background: #f5f5f5;">
+  <h2>Hubungi Kami</h2>
+  
+  <form name="contact-andalan" method="POST" netlify netlify-honeypot="bot-field">
+    <input type="hidden" name="form-name" value="contact-andalan">
+    
+    <!-- Anti-spam -->
+    <div class="hidden">
+      <label>Jangan isi ini: <input name="bot-field"></label>
+    </div>
+    
+    <!-- Input fields -->
+    <div style="margin-bottom: 1rem;">
+      <label style="display: block; margin-bottom: 0.5rem;">Nama Perusahaan</label>
+      <input 
+        type="text" 
+        name="company" 
+        placeholder="PT. Andalan Mining" 
+        style="width: 100%; padding: 0.5rem; border: 1px solid #ddd;" 
+        required>
+    </div>
+    
+    <div style="margin-bottom: 1rem;">
+      <label style="display: block; margin-bottom: 0.5rem;">Email</label>
+      <input 
+        type="email" 
+        name="email" 
+        placeholder="admin@andalanmining.com" 
+        style="width: 100%; padding: 0.5rem; border: 1px solid #ddd;" 
+        required>
+    </div>
+    
+    <div style="margin-bottom: 1rem;">
+      <label style="display: block; margin-bottom: 0.5rem;">Pesan</label>
+      <textarea 
+        name="message" 
+        style="width: 100%; padding: 0.5rem; border: 1px solid #ddd; min-height: 100px;" 
+        required></textarea>
+    </div>
+    
+    <button 
+      type="submit" 
+      style="background: #0066cc; color: white; padding: 0.5rem 1rem; border: none; cursor: pointer;">
+      Kirim Pesan
+    </button>
+  </form>
+</section>
+
+  
 <h2>A. Kendaraan & Alat Berat</h2>
 <details>
       <summary>1. LT (Light Truck)</summary>
